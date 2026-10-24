@@ -37,13 +37,13 @@ For population-level NHANES inference, use the original NHANES files and apply t
 Install R, then install the required packages once in the R console:
 
 ```r
-install.packages(c("NHANES", "dplyr", "ggplot2"))
+install.packages(c("NHANES", "tidyverse", "ggplot2"))
 ```
 
 After installation, run the analysis script from the project directory:
 
 ```r
-source("analysis.R")
+source("NHANES sbp analysis.R")
 ```
 
 The script follows the exploratory workflow in `analysis.R`: it inspects the data, displays histograms and scatterplots, prints the correlation and regression results, and opens the model diagnostic plots. The script contains the package installation commands as comments so they are not rerun every time you source it.
